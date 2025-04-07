@@ -1,1 +1,3 @@
-mvn spring-boot:run
+(~/TQS/TQS_HW1/demo) mvn spring-boot:run
+
+(~/TQS/TQS_HW1/mealbooking-frontend) npm run dev

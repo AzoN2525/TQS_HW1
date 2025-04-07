@@ -1,5 +1,7 @@
 package com.example.mealbooking.model;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,6 +17,10 @@ public class Meal {
     private Long id;
 
     private String name;
+
+    private LocalDate date;
+
+    private String description;
 
     @Enumerated(EnumType.STRING)
     private MealType type;
@@ -54,6 +60,22 @@ public class Meal {
 
     public void setType(MealType type) {
         this.type = type;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 
     public Restaurant getRestaurant() {

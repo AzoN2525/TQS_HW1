@@ -3,6 +3,7 @@
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/model/Meal.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/model/MealType.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/dto/ReservationRequestDTO.java
+/home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/service/WeatherService.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/dto/ReservationResponseDTO.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/model/Restaurant.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/controller/ReservationController.java
@@ -10,9 +11,12 @@
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/repository/MealRepository.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/MealBookingApplication.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/service/RestaurantService.java
+/home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/model/WeatherForecast.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/controller/MealControllerTest.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/controller/RestaurantControllerTest.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/controller/RestaurantController.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/repository/RestaurantRepository.java
+/home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/repository/WeatherRepository.java
+/home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/dto/MealWithWeatherDTO.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/controller/MealController.java
 /home/azon/TQS/TQS_HW1/demo/src/main/java/com/example/mealbooking/repository/ReservationRepository.java

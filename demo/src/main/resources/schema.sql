@@ -10,6 +10,7 @@ CREATE TABLE meal (
   date DATE,
   type VARCHAR(20),
   restaurant_id BIGINT,
+  description varchar(255),
   CONSTRAINT fk_restaurant FOREIGN KEY (restaurant_id) REFERENCES restaurant(id)
 );
 
