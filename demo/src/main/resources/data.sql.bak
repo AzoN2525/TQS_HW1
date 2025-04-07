@@ -1,0 +1,2 @@
+INSERT INTO restaurant (name, location) VALUES ('Cantina Central', 'Bloco A');
+INSERT INTO restaurant (name, location) VALUES ('Cantina Norte', 'Bloco C');
