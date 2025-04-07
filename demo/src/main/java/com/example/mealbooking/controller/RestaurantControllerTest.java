@@ -2,6 +2,7 @@ package com.example.mealbooking.controller;
 
 import com.example.mealbooking.model.Restaurant;
 import com.example.mealbooking.repository.RestaurantRepository;
+import com.example.mealbooking.MealBookingApplication;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@SpringBootTest
+@SpringBootTest(classes = MealBookingApplication.class)
 @AutoConfigureMockMvc
 public class RestaurantControllerTest {
 

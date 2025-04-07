@@ -1,21 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: com.example.RestaurantControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.183 s <<< FAILURE! -- in com.example.RestaurantControllerTest
-com.example.RestaurantControllerTest -- Time elapsed: 0.183 s <<< ERROR!
-java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
-	at org.springframework.util.Assert.state(Assert.java:76)
-	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.findConfigurationClass(SpringBootTestContextBootstrapper.java:246)
-	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:233)
-	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:150)
-	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:351)
-	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:267)
-	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:215)
-	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:108)
-	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:111)
-	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:142)
-	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:126)
-	at org.springframework.test.context.junit.jupiter.SpringExtension.getTestContextManager(SpringExtension.java:366)
-	at org.springframework.test.context.junit.jupiter.SpringExtension.beforeAll(SpringExtension.java:131)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.184 s <<< FAILURE! -- in com.example.RestaurantControllerTest
+com.example.RestaurantControllerTest.testGetAllRestaurants -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "com.example.mealbooking.controller" does not match the expected package "com.example"
+	The method save(S) in the type CrudRepository<Restaurant,Long> is not applicable for the arguments (Restaurant)
+	The constructor Restaurant(String, String) is undefined
+	The method save(S) in the type CrudRepository<Restaurant,Long> is not applicable for the arguments (Restaurant)
+	The constructor Restaurant(String, String) is undefined
+
+	at com.example.RestaurantControllerTest.<init>(RestaurantControllerTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
